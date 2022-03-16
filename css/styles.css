@@ -1,11 +1,132 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px red solid;
 }
 
 body {
     background-image: url(https://www.santana.com/wp-content/themes/offcomm_starter/images/background-top.png),linear-gradient(to bottom,#395e95,#676a45 800px);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-position: center top;
     word-wrap: break-word;
+    font-size: 1.6rem;
+    font-family: "Open Sans",sans-serif;
+}
+
+header {
+    height: 170px;
+    background-image: url(../img/santana-logo.png);
+    background-repeat: no-repeat;
+    background-size: 400px 65%;
+    background-position: center top;
+    background-position-y: 10px;
+    overflow: visible;
+}
+
+nav {
+    height: 100px;
+    padding-top: 100px;
+    padding-top: 120px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    width: 90%;
+    margin: 0 auto;
+    background-image: url(https://www.santana.com/wp-content/themes/offcomm_starter/images/nav-banner-crop.png);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    font-family: "Nothing You Could Do",cursive;
+    z-index: 7;
+    position: relative;
+    max-width: 1050px;
+}
+
+nav ul a {
+    width: 20%;
+    color: antiquewhite;
+    text-align: center;
+    background-color: rgba(218, 165, 32, 0.432);
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+a.current {
+    color: goldenrod;
+    background-color: rgba(0, 0, 0, 0.432);
+}
+
+nav a:hover {
+    color: goldenrod;
+    background-color: rgba(0, 0, 0, 0.432);
+}
+
+main {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.slideshow {
+    display: block;
+}
+
+.slideshow section {
+    display: flex;
+    background-image: url(../img/Banner-Milagro-Foundation.jpg);
+    background-blend-mode: color-burn;
+    height: 315px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,255,255,.9);
+    background-image: url(https://www.santana.com/wp-content/themes/offcomm_starter/images/stone.png),url(https://www.santana.com/wp-content/themes/offcomm_starter/images/stone-top.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom,top;
+    width: 1050px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main-content p {
+    font-size: 1rem;
+    display: block;
+}
+
+.main-content img {
+    margin: 40px auto;
+    display: block;
+}
+
+.main-content>div {
+    padding: 20px;
+}
+
+.top h2 {
+    margin: 10px;
+}
+.top p {
+    font-weight: bold;
+    margin: 10px;
+}
+
+.news {
+    display: flex;
+    flex-direction: row;
+}
+
+.news div {
+    width: 50%;
+}
+
+.news p {
+    padding: 20px;
 }
