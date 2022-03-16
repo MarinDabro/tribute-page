@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px red solid;
+   /*  border: 1px red solid; */
 }
 
 body {
@@ -26,21 +26,22 @@ header {
 }
 
 nav {
-    height: 100px;
-    padding-top: 100px;
+    height: 100%;
     padding-top: 120px;
+    vertical-align: bottom;
 }
 
 nav ul {
     display: flex;
     list-style-type: none;
+    height: 100%;
     width: 90%;
     margin: 0 auto;
     background-image: url(https://www.santana.com/wp-content/themes/offcomm_starter/images/nav-banner-crop.png);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    font-family: "Nothing You Could Do",cursive;
+    font-family: "Nothing You Could Do";
     z-index: 7;
     position: relative;
     max-width: 1050px;
