@@ -16,10 +16,10 @@ body {
 }
 
 header {
-    height: 170px;
+    height: 160px;
     background-image: url(../img/santana-logo.png);
     background-repeat: no-repeat;
-    background-size: 400px 65%;
+    background-size: 359px 120px;
     background-position: center top;
     background-position-y: 10px;
     overflow: visible;
@@ -28,13 +28,11 @@ header {
 nav {
     height: 100%;
     padding-top: 120px;
-    vertical-align: bottom;
 }
 
 nav ul {
     display: flex;
     list-style-type: none;
-    height: 100%;
     width: 90%;
     margin: 0 auto;
     background-image: url(https://www.santana.com/wp-content/themes/offcomm_starter/images/nav-banner-crop.png);
@@ -45,6 +43,7 @@ nav ul {
     z-index: 7;
     position: relative;
     max-width: 1050px;
+    margin-bottom: 0;
 }
 
 nav ul a {
