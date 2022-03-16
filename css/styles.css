@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://www.santana.com/wp-content/themes/offcomm_starter/images/background-top.png),linear-gradient(to bottom,#395e95,#676a45 800px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    word-wrap: break-word;
+}
