@@ -26,8 +26,54 @@ header {
 }
 
 nav {
-    height: 100%;
-    padding-top: 120px;
+    margin-top: 30px;
+}
+
+.signup {
+    width: 1050px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 15px;
+    display: flex;
+    color: antiquewhite;
+}
+
+.signup img {
+    width: 60px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.btn p {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn a {
+    height: 50%;
+    border: 1px antiquewhite solid;
+    background-color: maroon;
+    color: antiquewhite;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn a:hover {
+    background-color: #fd9c20;
+    color: black;
+    border: 1px black solid;
 }
 
 nav ul {
@@ -43,7 +89,6 @@ nav ul {
     z-index: 7;
     position: relative;
     max-width: 1050px;
-    margin-bottom: 0;
 }
 
 nav ul a {
